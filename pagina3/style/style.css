@@ -30,3 +30,16 @@ h1 {
   justify-content: center !important;
   align-items: center !important;
 }
+.cardpag3 {
+  display: flex !important;
+  margin-left: 15px !important;
+  background-color: var(--primary-color) !important;
+}
+.card-body {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.card2 {
+  display: flex I !important;
+  align-items: center !important;
+}
