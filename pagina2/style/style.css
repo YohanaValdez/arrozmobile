@@ -1,0 +1,136 @@
+:root {
+  --primary-color: rgba(42, 46, 51, 255) !important;
+  --secondary-color: rgba(255, 102, 0, 255) !important;
+}
+
+body { 
+  background: linear-gradient(180deg, var(--primary-color) 0%, rgba(16,16,18,255));
+  color: #f1f3f3 !important;
+  font-family: "Jost", sans-serif !important;
+}
+
+.cel {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5%;
+}
+
+h1 {
+  padding-left: 3.5% !important;
+  font-size: 2rem !important;
+}
+
+.btn-outline-warning {
+  padding: 1.5% !important;
+  width: 12vw !important;
+  height: 5vh !important;
+}
+.divseleccion {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.divprecio{
+  display: flex !important;
+  margin-left: 45% !important;
+  margin-right: 40% !important;
+}
+.imgcard {
+  width: 50%;
+  height: 50%;
+}
+.iconselec{
+  color: #f1f3f3;
+}
+.icons{
+  display: flex !important;
+  justify-content: center !important;
+ }
+ .valores {
+  display: flex !important;
+  justify-content: space-around !important;
+  padding: 1rem !important;
+ }
+ .button {
+  display: flex;
+  justify-content: center;
+ }
+ .btn-warning {
+  border-radius: 50px !important;
+  background-color: var(--secondary-color) !important;
+  border: none !important;
+  color: #f1f3f3 !important;
+ }
+ /* tarjetas */
+
+.contenedor-tarjetas {
+  padding: 3.5% !important;
+}
+.card {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+
+img {
+  width: 40vw !important;
+  height: 20vh !important;
+}
+.img-one{
+padding: 8% 3% 0% 3% !important;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color) !important;
+  border-radius: 100% !important;
+  border: none !important;
+}
+
+.card {
+  background-color: rgba(52,58,63,255) !important;
+  border-radius: 25px !important;
+  
+}
+
+.card-body {
+  width: 100%;
+  
+  
+}
+.card-title {
+  display: flex;
+  color: #f1f3f3 !important;
+  width: 100%;
+  justify-content: center !important;
+  font-size: 15px !important;
+}
+.precio {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.imgcard {
+  width: 80% !important;
+  height: 80% !important;
+}
+.imgcard1 {
+  margin-top: 0.5rem;
+  width: 75% !important;
+  height: 70% !important;
+}
+.imgcard2 {
+  margin-top: 0.7rem;
+  width: 75% !important;
+  height: 70% !important;
+}
+.span1 {
+  margin: 2rem !important;
+  font-size: 20px !important;
+
+}
+.bi-heart-fill {
+  color: red !important;
+}
