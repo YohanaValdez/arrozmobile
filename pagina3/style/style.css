@@ -32,14 +32,35 @@ h1 {
 }
 .cardpag3 {
   display: flex !important;
-  margin-left: 15px !important;
-  background-color: var(--primary-color) !important;
+  margin-left: 50px !important;
+  background-color: rgba(22,23,27,255) !important;
+  align-items: center !important;
 }
 .card-body {
   display: flex !important;
-  justify-content: space-around !important;
+  justify-content: space-between !important;
+  height: 20vh !important;
 }
 .card2 {
-  display: flex I !important;
+  display: flex !important;
   align-items: center !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+.cardbody1 {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.icons{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+ }
+ .contenedor-tarjetas {
+  padding: 3.5% !important;
+}
+.card-body3 {
+  background-color: rgba(52,58,63,255) !important;
 }
